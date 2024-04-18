@@ -52,4 +52,50 @@ nav > a{
   border-radius: 20px;
   text-align: center;
   height: 60vh;
+  
+}
+
+#modal{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  background:#ddd;
+  border: 1px #aaa solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+}
+#modal > h1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  cursor: pointer;
+}
+#modal > div{
+  display: flex;
+  gap: 40px;
+}
+#modal > input{
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px #aaa;
+  outline: none;
+}
+#modal button{
+  padding: 10px;
+  background:#06f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+#modal button:hover{
+  filter: brightness(130%);
 }
